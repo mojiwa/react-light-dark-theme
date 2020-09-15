@@ -3,7 +3,7 @@ import './index.css';
 
 const THEME_LIGHT_HEX = '#E2E8F0';
 const THEME_DARK_HEX = '#1A202C';
-const THEME_HIGHLIGHT_HEX = '#319795';
+//const THEME_HIGHLIGHT_HEX = '#319795';
 const THEME_KEY = 'THEME';
 
 const THEMES = {
