@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.button-holder {
+  display: flex;
+}
+
+.theme-button-light {
+  height: 25px;
+  width: 60px;
+  border-radius: 10%;
+  padding: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background-color: #cbd5e0;
+  color: #1a202c;
+}
+
+.theme-button-dark {
+  height: 25px;
+  width: 60px;
+  border-radius: 10%;
+  padding: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background-color: #2d3748;
+  color: #e2e8f0;
+}
+
+.theme-button-light:hover {
+  background-color: #e2e8f0;
+}
+
+.theme-button-dark:hover {
+  background-color: #1a202c;
+}
